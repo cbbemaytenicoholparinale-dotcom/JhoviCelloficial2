@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="JhoviCell: celulares, accesorios y electrodomésticos.">
+  <title>JhoviCell | Tecnología para ti</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body data-page="inicio">
+<header class="topbar">
+  <a class="brand" href="index.html">JhoviCell<span>.</span></a>
+  <nav class="desktop-nav"><a href="index.html">Inicio</a><a href="celulares.html">Celulares</a><a href="accesorios.html">Accesorios</a><a href="electrodomesticos.html">Electrodomésticos</a><a href="#experiencias">Experiencias</a><button class="nav-action" data-panel="ubicacion">Ubicación</button></nav>
+  <div class="top-actions"><button class="theme-toggle" id="theme-toggle" type="button" aria-label="Activar tema claro" title="Cambiar tema">☀</button><button class="icon-btn cart-shortcut" data-panel="carrito" aria-label="Abrir carrito">🛒<b id="cart-count">0</b></button><button class="hamburger" id="open-menu" aria-label="Abrir menú"><span></span><span></span><span></span></button></div>
+</header>
+<main id="inicio">
+  <section class="hero section-wrap"><div class="hero-copy"><p class="eyebrow">TECNOLOGÍA · ACCESORIOS · INNOVACIÓN</p><h1>Encuentra tu próxima<br><span>experiencia tecnológica.</span></h1><p>Todo lo que necesitas para estar conectado, disfrutar y hacer más fácil tu día.</p><a class="primary-btn" href="celulares.html">Explorar catálogo <span>→</span></a></div><div class="hero-visual"><div class="hero-glow"></div><img src="img/hero-phone.png" alt="Atención al cliente en JhoviCell"></div></section>
+  <section class="section-wrap section" id="destacados"><div class="section-heading"><div><p class="eyebrow">LO MÁS BUSCADO</p><h2>Productos destacados</h2></div><div class="carousel-controls"><button data-scroll="featured" data-dir="-1" aria-label="Anterior">‹</button><button data-scroll="featured" data-dir="1" aria-label="Siguiente">›</button></div></div>
+    <div class="featured-track horizontal-track" id="featured"><article class="feature-card feature-purple"><div><small>SMARTPHONE</small><h3>Redmi Note 14</h3><p>Potencia para tu día.</p><a href="celulares.html">Ver celulares</a></div><img src="img/featured-redmi-note14.png" alt="Redmi Note 14"></article><article class="feature-card feature-blue"><div><small>SAMSUNG</small><h3>Galaxy A55</h3><p>Diseño y rendimiento.</p><a href="celulares.html">Ver celulares</a></div><img src="img/featured-galaxy-a55.png" alt="Samsung Galaxy A55"></article><article class="feature-card feature-violet"><div><small>REALME</small><h3>Realme C100</h3><p>Conéctate a tu manera.</p><a href="celulares.html">Ver celulares</a></div><img src="img/featured-realme-c100.png" alt="Realme C100"></article></div>
+  </section>
+  <section class="section-wrap section" id="catalogo"><div class="section-heading"><div><p class="eyebrow">ENCUENTRA LO QUE BUSCAS</p><h2>Explora por categoría</h2></div></div>
+    <div class="category-track horizontal-track" id="categories"><a class="category-card" href="celulares.html"><img src="img/category-phones.png" alt="Celulares"><span>Celulares</span></a><a class="category-card accessories" href="accesorios.html"><img src="img/category-accessories.png" alt="Accesorios"><span>Accesorios</span></a><a class="category-card appliances" href="electrodomesticos.html"><img src="img/category-appliances.png" alt="Electrodomésticos"><span>Electrodomésticos</span></a></div>
+  </section>
+  <section class="section-wrap section" id="experiencias"><div class="section-heading"><div><p class="eyebrow">CLIENTES JHOVICELL</p><h2>Experiencias que conectan</h2></div><div class="carousel-controls"><button data-scroll="experience-photos" data-dir="-1" aria-label="Foto anterior">‹</button><button data-scroll="experience-photos" data-dir="1" aria-label="Foto siguiente">›</button></div></div>
+    <div class="experience-photos horizontal-track" id="experience-photos"><img src="img/customer-1.png" alt="Cliente mostrando su compra"><img src="img/experience-2.png" alt="Foto de experiencia de cliente 2"><img src="img/experience-3.png" alt="Foto de experiencia de cliente 3"></div>
+    <div class="experience-note"><span>★ ★ ★ ★ ★</span><h3>Tu próxima experiencia comienza aquí.</h3><p>Gracias por elegirnos y confiar en JhoviCell.</p></div>
+  </section>
+  <section class="feedback section-wrap"><div><p class="eyebrow">QUEREMOS CONOCERTE</p><h2>¿Cómo fue tu experiencia?</h2><p>Déjanos un comentario. Tu opinión nos ayuda a mejorar.</p></div><form id="feedback-form"><textarea id="feedback-text" placeholder="Escribe tu comentario..." required></textarea><button class="primary-btn" type="submit">Enviar comentario</button></form></section>
+</main>
+<footer class="footer"><a class="brand" href="index.html">JhoviCell<span>.</span></a><p>Tu tecnología, más cerca de ti.</p>
+  <div class="socials">
+    <a href="#" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-3 0-5 2-5 5v2H6v4h3v5h4v-5h3l1-4h-4V9c0-.7.3-1 1-1z"/></svg></a>
+    <a href="#" aria-label="TikTok" title="TikTok"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 3h3c.2 2 1.3 3.5 3 4v3c-2.2 0-4.1-.8-6-2.2V16a5 5 0 1 1-5-5h1v3h-1a2 2 0 1 0 2 2V3h3z"/></svg></a>
+    <a href="#" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.8" r="1" class="solid"/></svg></a>
+    <a href="#" aria-label="WhatsApp" title="WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.7a8 8 0 0 1-11.8 7L4 20l1.3-4A8 8 0 1 1 20 11.7z"/><path d="M9 8.5c.4 2.3 2.1 4 4.5 4.7l1.2-1.1 2 1c-.2 1.4-1.2 2.2-2.6 2.2-3.5-.3-6.8-3.6-7-7.1 0-1.3.8-2.3 2.1-2.5l1 2z" class="solid"/></svg></a>
+  </div><small>© <span id="year"></span> JhoviCell. Todos los derechos reservados.</small>
+</footer>
+<div class="scrim" id="scrim"></div><aside class="drawer" id="drawer" aria-hidden="true"><button class="close-btn" id="close-menu" aria-label="Cerrar menú">×</button><div class="profile-avatar" id="drawer-avatar">J</div><h3 id="drawer-name">¡Hola!</h3><p class="drawer-subtitle">Bienvenido a JhoviCell</p><button class="drawer-link" data-panel="perfil">Perfil</button><button class="drawer-link" data-panel="carrito">Carrito <span id="drawer-count">0</span></button><button class="drawer-link" data-panel="notificacion">Notificación</button><button class="drawer-link" data-panel="nosotros">Quiénes somos</button><button class="drawer-link" data-panel="ubicacion">Ubicación</button><div class="drawer-auth"><button class="outline-btn" data-auth="login">Iniciar sesión</button><button class="primary-btn" data-auth="register">Registrarme</button></div></aside>
+<div class="modal-layer" id="modal-layer" aria-hidden="true"><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button class="close-btn modal-close" id="close-modal" aria-label="Cerrar">×</button><div id="modal-content"></div></section></div><div class="toast" id="toast" role="status"></div>
+<script src="js/productos.js"></script><script src="js/funciones.js"></script></body></html>
